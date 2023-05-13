@@ -1,0 +1,93 @@
+download git 
+some command line used in git 
+cd - change directory
+cd .. - moving out of folder
+touch index.txt - creating a file
+nano index.txt - writing on text file
+cat index.txt - reading txt file
+mkdir - making directory / folder
+mv gabobe - moving folder
+mv gabobe project - renaming folder
+cp index.txt/gabobe home.txt/project - copying text or folder
+rm -rf index.txt/gabobe - removing file or folder
+ls - list
+la -la - list description
+
+github
+create account
+Configure your name and your email
+git config --global user.name 'yourname'
+git config --global user.email 'youremail'
+
+create a local git repository
+mkdir project_name
+cd project_name
+
+inialize git
+init git
+
+adding file
+git add index.txt
+adding multiple files
+git add .
+
+unstage file
+git reset HEAD index.txt
+
+commit change
+git commit -m "mssage"
+
+create a branch
+git checkout -b branchname
+
+switch between branches
+git checkout master
+git checkout branchname
+
+list downl all the branches
+git branch
+
+create repository on Github
+
+connectng git with remote repository
+git remote add origin https://github.com/accountname/repository.git
+
+push
+git push -u origin master
+
+merge
+git checkout develop
+git merge feature
+
+pull
+  git checkout yourbranch
+   git pull origin develop
+   git checkout develop
+   git merge yourbranch
+   git push -u origin develop
+
+
+
+adding txt/file on your github account
+git pull
+git add .
+git status
+git commit -m "message"
+git push -u origin master/branchname
+
+
+List hidden files/folders
+ls -a
+
+To get remote origin url:
+git remote -v
+
+
+Remove git 
+rm -rf .git
+
+If you get this error when make a pull request:
+Please commit your changes or stash them before you merge.
+Delete the problematic by running this commad:
+
+git reset --hard
