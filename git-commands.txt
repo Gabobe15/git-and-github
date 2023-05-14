@@ -76,6 +76,9 @@ git commit -m "message"
 git push -u origin master/branchname
 
 
+git push --all origin
+uf you want to push all your changes in branches
+
 List hidden files/folders
 ls -a
 
