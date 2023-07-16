@@ -94,3 +94,23 @@ Please commit your changes or stash them before you merge.
 Delete the problematic by running this commad:
 
 git reset --hard
+
+
+git origin already exists
+checking origin 
+git remote
+checking origin + showing the existing url
+git remote -v
+
+removing origin
+git remote remove origin 
+
+updating existing remote url
+git remote set-url <REMOTE-NAME> <NEW-URL>
+
+
+
+
+
+
+
