@@ -44,5 +44,13 @@ git branch -D branch-name
 checking and creating branch
 git checkout -b branch-name
 
+merge two braches
+git branch
+hami
+*master
 
+git merge hami
+
+we are mergin hami to our master branch then after that we can delete hami branch
+git branch -D hami
 
