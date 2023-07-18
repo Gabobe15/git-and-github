@@ -26,4 +26,17 @@ git clear
 undo commit
 git revert id
 
+creating a branch
+git branch name
 
+checking branch 
+git branch 
+
+switching branches
+git checkout branch-name
+
+deleting branch
+git branch -D branch-name
+
+checking and creating branch
+git checkout -b branch-name
