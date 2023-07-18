@@ -1,3 +1,10 @@
+git configuration
+git config --global user.name "username"
+git config --global user.email "email"
+
+clonning source code from github repo
+git clone url foldername
+
 to initialize git command
 git init
 Adding file or files.
