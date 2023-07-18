@@ -1,0 +1,29 @@
+to initialize git command
+git init
+Adding file or files.
+git add index.html (single file)
+git add .  (all files)
+stagin git 
+
+status 
+git status
+
+staging git
+git commit -m "initial commit"
+
+history of git 
+git log
+
+moving between commit 
+git chechout 
+ 
+to see the branch
+git checkout main
+
+clear vscode terminal
+git clear
+
+undo commit
+git revert id
+
+
