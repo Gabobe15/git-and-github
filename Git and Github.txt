@@ -26,6 +26,9 @@ git clear
 undo commit
 git revert id
 
+you can go back or last commmit
+git reset --hard id
+
 creating a branch
 git branch name
 
@@ -40,3 +43,6 @@ git branch -D branch-name
 
 checking and creating branch
 git checkout -b branch-name
+
+
+
